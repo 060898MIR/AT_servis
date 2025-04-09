@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaxsiy Ma'lumotlar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Dastur yaratuvchisi haqida ma'lumot -->
+        <div class="developer-info">
+            <div class="dev-image">
+                <img src="img/Mirabbos 200x200.jpg" alt="Dastur yaratuvchisi">
+            </div>
+            <div class="dev-details">
+                <h2>Dastur Yaratuvchisi</h2>
+                <p><strong>Ism-familiya:</strong> Qaxxorov Mirabbos</p>
+                <p><strong>Yo'nalish:</strong> MT KI AT-servis</p>
+                <p><strong>Kurs:</strong> 2-kurs</p>
+                <div class="contact-info">
+                    <p><strong>Telefon:</strong> <a href="tel:+998 88 660 66 00">+998 88 660 66 00</a></p>
+                    <p><strong>Email:</strong> <a href="qahhorovmirabbosm"@gmail.co>qahhorovmirabbos@gmail.com</a></p>
+                    <p><strong>Telegram:</strong> <a href="https://t.me/mraw_1998" target="_blank">@mraw_1998</a></p>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <!-- Mavjud kod -->
+        <h1>Shaxsiy Ma'lumotlar</h1>
+        <div class="form">
+            <div class="input-group">
+                <label for="ism">Ismingiz:</label>
+                <input type="text" id="ism" placeholder="Ismingizni kiriting">
+            </div>
+            <div class="input-group">
+                <label for="familiya">Familiyangiz:</label>
+                <input type="text" id="familiya" placeholder="Familiyangizni kiriting">
+            </div>
+            <div class="input-group">
+                <label for="yosh">Yoshingiz:</label>
+                <input type="number" id="yosh" placeholder="Yoshingizni kiriting">
+            </div>
+            <div class="input-group">
+                <label for="manzil">Manzilingiz:</label>
+                <input type="text" id="manzil" placeholder="Manzilingizni kiriting">
+            </div>
+            <button onclick="malumotlarniKorsatish()">Ma'lumotlarni ko'rsatish</button>
+        </div>
+        <div id="natija" class="natija"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
